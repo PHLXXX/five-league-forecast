@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="ChatGPT avatar">
+  <defs>
+    <linearGradient id="bg" x1="18" y1="12" x2="112" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#20f0bd"/>
+      <stop offset=".5" stop-color="#38c8ff"/>
+      <stop offset="1" stop-color="#b989ff"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.125 0 0 0 0 0.941 0 0 0 0 0.741 0 0 0 .9 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="#06121c"/>
+  <rect x="5" y="5" width="118" height="118" rx="28" fill="url(#bg)" opacity=".22"/>
+  <circle cx="64" cy="64" r="46" fill="#071824" stroke="#20f0bd" stroke-opacity=".55" stroke-width="2"/>
+  <g filter="url(#glow)" fill="none" stroke="#eafff9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M58 26c12-7 29-2 35 11 3 7 2 15-2 21"/>
+    <path d="M91 47c13 7 17 24 8 36-4 6-11 9-19 10"/>
+    <path d="M82 92c-1 15-15 26-30 23-8-1-14-6-18-13"/>
+    <path d="M43 105c-13 7-29 2-36-11-4-7-3-15 1-22"/>
+    <path d="M8 81c-12-8-15-25-6-36 5-6 12-9 19-9"/>
+    <path d="M21 36c1-15 15-26 30-23 8 1 14 6 18 13"/>
+    <path d="M44 43l41 24"/>
+    <path d="M84 43L43 67"/>
+    <path d="M64 31v48"/>
+    <path d="M43 67l42 24"/>
+    <path d="M84 67l-41 24"/>
+    <path d="M64 49v48"/>
+  </g>
+  <circle cx="98" cy="30" r="7" fill="#f4bc4f"/>
+</svg>

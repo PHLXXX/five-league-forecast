@@ -1,0 +1,19 @@
+.env
+node_modules/
+*.log
+public-url.txt
+tools/
+dist-desktop/
+release-artifacts/
+.claude/
+.eb-cache/
+
+# 个人数据与运行缓存（程序运行时会在用户数据目录里自动生成）
+data/prediction-history*.json
+data/history-*-sporttery-anchor-v2.json
+data/sporttery-anchor-v2-*.json
+data/debug-*.json
+data/derivative-market-cache.json
+data/espn-cache.json
+data/worldcup-2026-results.json
+data/league-source-snapshots/

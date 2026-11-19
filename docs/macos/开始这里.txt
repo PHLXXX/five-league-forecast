@@ -1,0 +1,12 @@
+喷火龙五大联赛分析平台 macOS 版 1.1.0
+
+本目录中的“macOS构建源码”压缩包已经排除 node_modules、Windows 安装产物、日志和本机密钥，可直接上传到 GitHub 仓库。
+
+上传后打开 GitHub 仓库顶部的 Actions，选择“构建 macOS 桌面版”，点击 Run workflow。流程会分别生成：
+
+1. arm64：适用于 M1、M2、M3、M4 等 Apple 芯片 Mac。
+2. x64：适用于 Intel 处理器 Mac。
+
+每个构建产物均包含 DMG 安装包和 ZIP 备用包。详细步骤请阅读“自动构建.md”，安装方法请阅读“安装与启动.md”。
+
+注意：Windows 系统不能可靠地生成或验证 macOS DMG，因此本项目使用 GitHub 的真实 macOS 构建机完成最终安装包制作。

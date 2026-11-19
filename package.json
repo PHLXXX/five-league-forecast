@@ -1,0 +1,84 @@
+{
+  "name": "five-league-analyzer",
+  "version": "1.2.2",
+  "description": "European top-five league schedule, standings, match analysis and historical backtesting platform.",
+  "type": "module",
+  "main": "desktop/main.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "desktop": "electron .",
+    "desktop:pack": "electron-builder --dir --win --x64",
+    "desktop:dist": "electron-builder --win nsis portable --x64",
+    "desktop:pack:win": "electron-builder --dir --win --x64",
+    "desktop:dist:win": "electron-builder --win nsis portable --x64",
+    "desktop:pack:mac": "electron-builder --dir --mac",
+    "desktop:dist:mac": "electron-builder --mac dmg zip",
+    "icon:build": "node scripts/generate-icon.mjs",
+    "check": "node --check server.js && node --check public/app.js && node --check desktop/main.js && node --check desktop/preload.cjs && node --check desktop/runtime.js && node --check src/competitions.js && node --check src/league-data-service.js && node --check src/analysis-context.js && node --check src/recommendation-consistency.js && node --check src/league-backtest.js && node --check src/history-scope.js && node --check src/numbers.js && node --check src/team-names.js && node --check src/ratings-model.js && node --check src/history-data.js && node --check src/team-matcher.js && node --check src/forecast-service.js && node --check src/model-backtest.js && node --check src/csv-team-names.js && node --check src/espn-odds.js && node --check src/sporttery-matcher.js",
+    "test": "node --test test/*.test.js",
+    "backtest:compare": "node scripts/backtest-compare.mjs"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "devDependencies": {
+    "electron": "^43.1.1",
+    "electron-builder": "^26.15.3",
+    "sharp": "^0.35.3"
+  },
+  "build": {
+    "appId": "cn.charizard.fiveleague.analyzer",
+    "productName": "喷火龙五大联赛分析平台",
+    "asar": false,
+    "directories": {
+      "output": "dist-desktop"
+    },
+    "files": [
+      "package.json",
+      "server.js",
+      "desktop/**/*",
+      "public/**/*",
+      "src/**/*",
+      "data/**/*",
+      "!**/*.log",
+      "!**/*.zip"
+    ],
+    "win": {
+      "icon": "build/icon.png",
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    },
+    "mac": {
+      "icon": "build/icon.png",
+      "category": "public.app-category.sports",
+      "target": [
+        "dmg",
+        "zip"
+      ],
+      "artifactName": "${productName}-macOS-${version}-${arch}.${ext}",
+      "hardenedRuntime": true,
+      "gatekeeperAssess": false,
+      "entitlements": "build/entitlements.mac.plist",
+      "entitlementsInherit": "build/entitlements.mac.plist",
+      "minimumSystemVersion": "12.0.0"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "喷火龙五大联赛分析平台",
+      "artifactName": "${productName}-安装版-${version}-${arch}.${ext}"
+    },
+    "portable": {
+      "artifactName": "${productName}-便携版-${version}-${arch}.${ext}"
+    }
+  }
+}

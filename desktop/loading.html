@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>正在启动分析平台</title>
+    <style>
+      :root { color-scheme: dark; font-family: "Microsoft YaHei UI", sans-serif; }
+      * { box-sizing: border-box; }
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; color: #e9fffb; background: #061219; overflow: hidden; }
+      body::before { content: ""; position: fixed; inset: 0; background-image: linear-gradient(rgba(40,219,204,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(40,219,204,.06) 1px, transparent 1px); background-size: 48px 48px; mask-image: linear-gradient(to bottom, #000, transparent); }
+      main { width: min(520px, calc(100vw - 48px)); position: relative; padding: 42px; border: 1px solid rgba(52,224,205,.28); background: rgba(7,27,36,.88); box-shadow: 0 28px 80px rgba(0,0,0,.45), inset 0 1px rgba(255,255,255,.05); }
+      .mark { width: 58px; height: 58px; display: grid; place-items: center; border: 1px solid #2ddac6; color: #8bfff1; font-size: 24px; font-weight: 800; box-shadow: 0 0 28px rgba(45,218,198,.2); }
+      h1 { margin: 26px 0 8px; font-size: 25px; letter-spacing: 0; }
+      p { margin: 0; color: #8caab2; line-height: 1.7; }
+      .line { height: 3px; margin-top: 30px; background: #102b34; overflow: hidden; }
+      .line::after { content: ""; display: block; width: 38%; height: 100%; background: linear-gradient(90deg, #21d7bd, #48bfff); animation: loading 1.4s ease-in-out infinite; }
+      @keyframes loading { from { transform: translateX(-110%); } to { transform: translateX(360%); } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="mark">FL</div>
+      <h1>正在启动分析服务</h1>
+      <p>正在初始化赛程缓存、数据源和历史回测，请稍候。</p>
+      <div class="line"></div>
+    </main>
+  </body>
+</html>

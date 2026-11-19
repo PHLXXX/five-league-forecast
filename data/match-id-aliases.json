@@ -1,0 +1,588 @@
+{
+  "version": 1,
+  "aliases": {
+    "537327": {
+      "footballData": "537327",
+      "worldcup26": "1",
+      "date": "2026-06-12",
+      "kickoffUtc": "2026-06-11T19:00:00Z"
+    },
+    "537330": {
+      "footballData": "537330",
+      "worldcup26": "25",
+      "date": "2026-06-19",
+      "kickoffUtc": "2026-06-19T01:00:00Z"
+    },
+    "537332": {
+      "footballData": "537332",
+      "worldcup26": "51",
+      "date": "2026-06-25",
+      "kickoffUtc": "2026-06-25T01:00:00Z"
+    },
+    "537333": {
+      "footballData": "537333",
+      "worldcup26": "3",
+      "date": "2026-06-13",
+      "kickoffUtc": "2026-06-12T19:00:00Z"
+    },
+    "537334": {
+      "footballData": "537334",
+      "worldcup26": "8",
+      "date": "2026-06-14",
+      "kickoffUtc": "2026-06-13T19:00:00Z"
+    },
+    "537335": {
+      "footballData": "537335",
+      "worldcup26": "26",
+      "date": "2026-06-19",
+      "kickoffUtc": "2026-06-18T19:00:00Z"
+    },
+    "537336": {
+      "footballData": "537336",
+      "worldcup26": "27",
+      "date": "2026-06-19",
+      "kickoffUtc": "2026-06-18T22:00:00Z"
+    },
+    "537337": {
+      "footballData": "537337",
+      "worldcup26": "54",
+      "date": "2026-06-25",
+      "kickoffUtc": "2026-06-24T19:00:00Z"
+    },
+    "537338": {
+      "footballData": "537338",
+      "worldcup26": "53",
+      "date": "2026-06-25",
+      "kickoffUtc": "2026-06-24T19:00:00Z"
+    },
+    "537339": {
+      "footballData": "537339",
+      "worldcup26": "7",
+      "date": "2026-06-14",
+      "kickoffUtc": "2026-06-13T22:00:00Z"
+    },
+    "537340": {
+      "footballData": "537340",
+      "worldcup26": "5",
+      "date": "2026-06-14",
+      "kickoffUtc": "2026-06-14T01:00:00Z"
+    },
+    "537341": {
+      "footballData": "537341",
+      "worldcup26": "29",
+      "date": "2026-06-20",
+      "kickoffUtc": "2026-06-20T00:30:00Z"
+    },
+    "537342": {
+      "footballData": "537342",
+      "worldcup26": "30",
+      "date": "2026-06-20",
+      "kickoffUtc": "2026-06-19T22:00:00Z"
+    },
+    "537343": {
+      "footballData": "537343",
+      "worldcup26": "49",
+      "date": "2026-06-25",
+      "kickoffUtc": "2026-06-24T22:00:00Z"
+    },
+    "537344": {
+      "footballData": "537344",
+      "worldcup26": "50",
+      "date": "2026-06-25",
+      "kickoffUtc": "2026-06-24T22:00:00Z"
+    },
+    "537345": {
+      "footballData": "537345",
+      "worldcup26": "4",
+      "date": "2026-06-13",
+      "kickoffUtc": "2026-06-13T01:00:00Z"
+    },
+    "537346": {
+      "footballData": "537346",
+      "worldcup26": "6",
+      "date": "2026-06-14",
+      "kickoffUtc": "2026-06-14T04:00:00Z"
+    },
+    "537347": {
+      "footballData": "537347",
+      "worldcup26": "32",
+      "date": "2026-06-20",
+      "kickoffUtc": "2026-06-20T03:00:00Z"
+    },
+    "537348": {
+      "footballData": "537348",
+      "worldcup26": "31",
+      "date": "2026-06-20",
+      "kickoffUtc": "2026-06-19T19:00:00Z"
+    },
+    "537349": {
+      "footballData": "537349",
+      "worldcup26": "58",
+      "date": "2026-06-26",
+      "kickoffUtc": "2026-06-26T02:00:00Z"
+    },
+    "537350": {
+      "footballData": "537350",
+      "worldcup26": "57",
+      "date": "2026-06-26",
+      "kickoffUtc": "2026-06-26T02:00:00Z"
+    },
+    "537351": {
+      "footballData": "537351",
+      "worldcup26": "10",
+      "date": "2026-06-15",
+      "kickoffUtc": "2026-06-14T17:00:00Z"
+    },
+    "537352": {
+      "footballData": "537352",
+      "worldcup26": "9",
+      "date": "2026-06-15",
+      "kickoffUtc": "2026-06-14T23:00:00Z"
+    },
+    "537353": {
+      "footballData": "537353",
+      "worldcup26": "33",
+      "date": "2026-06-21",
+      "kickoffUtc": "2026-06-20T20:00:00Z"
+    },
+    "537354": {
+      "footballData": "537354",
+      "worldcup26": "34",
+      "date": "2026-06-21",
+      "kickoffUtc": "2026-06-21T00:00:00Z"
+    },
+    "537355": {
+      "footballData": "537355",
+      "worldcup26": "56",
+      "date": "2026-06-26",
+      "kickoffUtc": "2026-06-25T20:00:00Z"
+    },
+    "537356": {
+      "footballData": "537356",
+      "worldcup26": "55",
+      "date": "2026-06-26",
+      "kickoffUtc": "2026-06-25T20:00:00Z"
+    },
+    "537357": {
+      "footballData": "537357",
+      "worldcup26": "11",
+      "date": "2026-06-15",
+      "kickoffUtc": "2026-06-14T20:00:00Z"
+    },
+    "537358": {
+      "footballData": "537358",
+      "worldcup26": "12",
+      "date": "2026-06-15",
+      "kickoffUtc": "2026-06-15T02:00:00Z"
+    },
+    "537359": {
+      "footballData": "537359",
+      "worldcup26": "35",
+      "date": "2026-06-21",
+      "kickoffUtc": "2026-06-20T17:00:00Z"
+    },
+    "537360": {
+      "footballData": "537360",
+      "worldcup26": "36",
+      "date": "2026-06-21",
+      "kickoffUtc": "2026-06-21T04:00:00Z"
+    },
+    "537361": {
+      "footballData": "537361",
+      "worldcup26": "60",
+      "date": "2026-06-26",
+      "kickoffUtc": "2026-06-25T23:00:00Z"
+    },
+    "537362": {
+      "footballData": "537362",
+      "worldcup26": "59",
+      "date": "2026-06-26",
+      "kickoffUtc": "2026-06-25T23:00:00Z"
+    },
+    "537363": {
+      "footballData": "537363",
+      "worldcup26": "15",
+      "date": "2026-06-16",
+      "kickoffUtc": "2026-06-15T19:00:00Z"
+    },
+    "537364": {
+      "footballData": "537364",
+      "worldcup26": "13",
+      "date": "2026-06-16",
+      "kickoffUtc": "2026-06-16T01:00:00Z"
+    },
+    "537365": {
+      "footballData": "537365",
+      "worldcup26": "37",
+      "date": "2026-06-22",
+      "kickoffUtc": "2026-06-21T19:00:00Z"
+    },
+    "537366": {
+      "footballData": "537366",
+      "worldcup26": "38",
+      "date": "2026-06-22",
+      "kickoffUtc": "2026-06-22T01:00:00Z"
+    },
+    "537367": {
+      "footballData": "537367",
+      "worldcup26": "64",
+      "date": "2026-06-27",
+      "kickoffUtc": "2026-06-27T03:00:00Z"
+    },
+    "537368": {
+      "footballData": "537368",
+      "worldcup26": "63",
+      "date": "2026-06-27",
+      "kickoffUtc": "2026-06-27T03:00:00Z"
+    },
+    "537370": {
+      "footballData": "537370",
+      "worldcup26": "16",
+      "date": "2026-06-16",
+      "kickoffUtc": "2026-06-15T22:00:00Z"
+    },
+    "537371": {
+      "footballData": "537371",
+      "worldcup26": "39",
+      "date": "2026-06-22",
+      "kickoffUtc": "2026-06-21T16:00:00Z"
+    },
+    "537373": {
+      "footballData": "537373",
+      "worldcup26": "66",
+      "date": "2026-06-27",
+      "kickoffUtc": "2026-06-27T00:00:00Z"
+    },
+    "537375": {
+      "footballData": "537375",
+      "worldcup26": "89",
+      "date": "2026-07-05",
+      "kickoffUtc": "2026-07-04T21:00:00Z"
+    },
+    "537376": {
+      "footballData": "537376",
+      "worldcup26": "90",
+      "date": "2026-07-05",
+      "kickoffUtc": "2026-07-04T17:00:00Z"
+    },
+    "537377": {
+      "footballData": "537377",
+      "worldcup26": "91",
+      "date": "2026-07-06",
+      "kickoffUtc": "2026-07-05T20:00:00Z"
+    },
+    "537378": {
+      "footballData": "537378",
+      "worldcup26": "92",
+      "date": "2026-07-06",
+      "kickoffUtc": "2026-07-06T01:00:00Z"
+    },
+    "537379": {
+      "footballData": "537379",
+      "worldcup26": "93",
+      "date": "2026-07-07",
+      "kickoffUtc": "2026-07-06T19:00:00Z"
+    },
+    "537380": {
+      "footballData": "537380",
+      "worldcup26": "94",
+      "date": "2026-07-07",
+      "kickoffUtc": "2026-07-07T00:00:00Z"
+    },
+    "537381": {
+      "footballData": "537381",
+      "worldcup26": "95",
+      "date": "2026-07-08",
+      "kickoffUtc": "2026-07-07T16:00:00Z"
+    },
+    "537382": {
+      "footballData": "537382",
+      "worldcup26": "96",
+      "date": "2026-07-08",
+      "kickoffUtc": "2026-07-07T20:00:00Z"
+    },
+    "537383": {
+      "footballData": "537383",
+      "worldcup26": "97",
+      "date": "2026-07-10",
+      "kickoffUtc": "2026-07-09T20:00:00Z"
+    },
+    "537384": {
+      "footballData": "537384",
+      "worldcup26": "98",
+      "date": "2026-07-11",
+      "kickoffUtc": "2026-07-10T19:00:00Z"
+    },
+    "537385": {
+      "footballData": "537385",
+      "worldcup26": "99",
+      "date": "2026-07-12",
+      "kickoffUtc": "2026-07-11T21:00:00Z"
+    },
+    "537386": {
+      "footballData": "537386",
+      "worldcup26": "100",
+      "date": "2026-07-12",
+      "kickoffUtc": "2026-07-12T01:00:00Z"
+    },
+    "537387": {
+      "footballData": "537387",
+      "worldcup26": "101",
+      "date": "2026-07-15",
+      "kickoffUtc": "2026-07-14T19:00:00Z"
+    },
+    "537388": {
+      "footballData": "537388",
+      "worldcup26": "102",
+      "date": "2026-07-16",
+      "kickoffUtc": "2026-07-15T19:00:00Z"
+    },
+    "537389": {
+      "footballData": "537389",
+      "worldcup26": "103",
+      "date": "2026-07-19",
+      "kickoffUtc": "2026-07-18T21:00:00Z"
+    },
+    "537390": {
+      "footballData": "537390",
+      "worldcup26": "104",
+      "date": "2026-07-20",
+      "kickoffUtc": "2026-07-19T19:00:00Z"
+    },
+    "537391": {
+      "footballData": "537391",
+      "worldcup26": "17",
+      "date": "2026-06-17",
+      "kickoffUtc": "2026-06-16T19:00:00Z"
+    },
+    "537392": {
+      "footballData": "537392",
+      "worldcup26": "18",
+      "date": "2026-06-17",
+      "kickoffUtc": "2026-06-16T22:00:00Z"
+    },
+    "537393": {
+      "footballData": "537393",
+      "worldcup26": "41",
+      "date": "2026-06-23",
+      "kickoffUtc": "2026-06-22T21:00:00Z"
+    },
+    "537394": {
+      "footballData": "537394",
+      "worldcup26": "42",
+      "date": "2026-06-23",
+      "kickoffUtc": "2026-06-23T00:00:00Z"
+    },
+    "537395": {
+      "footballData": "537395",
+      "worldcup26": "62",
+      "date": "2026-06-27",
+      "kickoffUtc": "2026-06-26T19:00:00Z"
+    },
+    "537396": {
+      "footballData": "537396",
+      "worldcup26": "61",
+      "date": "2026-06-27",
+      "kickoffUtc": "2026-06-26T19:00:00Z"
+    },
+    "537397": {
+      "footballData": "537397",
+      "worldcup26": "19",
+      "date": "2026-06-17",
+      "kickoffUtc": "2026-06-17T01:00:00Z"
+    },
+    "537398": {
+      "footballData": "537398",
+      "worldcup26": "20",
+      "date": "2026-06-17",
+      "kickoffUtc": "2026-06-17T04:00:00Z"
+    },
+    "537399": {
+      "footballData": "537399",
+      "worldcup26": "43",
+      "date": "2026-06-23",
+      "kickoffUtc": "2026-06-22T17:00:00Z"
+    },
+    "537400": {
+      "footballData": "537400",
+      "worldcup26": "44",
+      "date": "2026-06-23",
+      "kickoffUtc": "2026-06-23T03:00:00Z"
+    },
+    "537401": {
+      "footballData": "537401",
+      "worldcup26": "70",
+      "date": "2026-06-28",
+      "kickoffUtc": "2026-06-28T02:00:00Z"
+    },
+    "537402": {
+      "footballData": "537402",
+      "worldcup26": "69",
+      "date": "2026-06-28",
+      "kickoffUtc": "2026-06-28T02:00:00Z"
+    },
+    "537403": {
+      "footballData": "537403",
+      "worldcup26": "21",
+      "date": "2026-06-18",
+      "kickoffUtc": "2026-06-17T17:00:00Z"
+    },
+    "537404": {
+      "footballData": "537404",
+      "worldcup26": "23",
+      "date": "2026-06-18",
+      "kickoffUtc": "2026-06-18T02:00:00Z"
+    },
+    "537405": {
+      "footballData": "537405",
+      "worldcup26": "45",
+      "date": "2026-06-24",
+      "kickoffUtc": "2026-06-23T17:00:00Z"
+    },
+    "537406": {
+      "footballData": "537406",
+      "worldcup26": "47",
+      "date": "2026-06-24",
+      "kickoffUtc": "2026-06-24T02:00:00Z"
+    },
+    "537407": {
+      "footballData": "537407",
+      "worldcup26": "71",
+      "date": "2026-06-28",
+      "kickoffUtc": "2026-06-27T23:30:00Z"
+    },
+    "537408": {
+      "footballData": "537408",
+      "worldcup26": "72",
+      "date": "2026-06-28",
+      "kickoffUtc": "2026-06-27T23:30:00Z"
+    },
+    "537409": {
+      "footballData": "537409",
+      "worldcup26": "22",
+      "date": "2026-06-18",
+      "kickoffUtc": "2026-06-17T20:00:00Z"
+    },
+    "537410": {
+      "footballData": "537410",
+      "worldcup26": "24",
+      "date": "2026-06-18",
+      "kickoffUtc": "2026-06-17T23:00:00Z"
+    },
+    "537411": {
+      "footballData": "537411",
+      "worldcup26": "48",
+      "date": "2026-06-24",
+      "kickoffUtc": "2026-06-23T20:00:00Z"
+    },
+    "537412": {
+      "footballData": "537412",
+      "worldcup26": "46",
+      "date": "2026-06-24",
+      "kickoffUtc": "2026-06-23T23:00:00Z"
+    },
+    "537413": {
+      "footballData": "537413",
+      "worldcup26": "67",
+      "date": "2026-06-28",
+      "kickoffUtc": "2026-06-27T21:00:00Z"
+    },
+    "537414": {
+      "footballData": "537414",
+      "worldcup26": "68",
+      "date": "2026-06-28",
+      "kickoffUtc": "2026-06-27T21:00:00Z"
+    },
+    "537415": {
+      "footballData": "537415",
+      "worldcup26": "74",
+      "date": "2026-06-30",
+      "kickoffUtc": "2026-06-29T20:30:00Z"
+    },
+    "537416": {
+      "footballData": "537416",
+      "worldcup26": "77",
+      "date": "2026-07-01",
+      "kickoffUtc": "2026-06-30T21:00:00Z"
+    },
+    "537417": {
+      "footballData": "537417",
+      "worldcup26": "73",
+      "date": "2026-06-29",
+      "kickoffUtc": "2026-06-28T19:00:00Z"
+    },
+    "537418": {
+      "footballData": "537418",
+      "worldcup26": "75",
+      "date": "2026-06-30",
+      "kickoffUtc": "2026-06-30T01:00:00Z"
+    },
+    "537419": {
+      "footballData": "537419",
+      "worldcup26": "83",
+      "date": "2026-07-03",
+      "kickoffUtc": "2026-07-02T23:00:00Z"
+    },
+    "537420": {
+      "footballData": "537420",
+      "worldcup26": "84",
+      "date": "2026-07-03",
+      "kickoffUtc": "2026-07-02T19:00:00Z"
+    },
+    "537421": {
+      "footballData": "537421",
+      "worldcup26": "81",
+      "date": "2026-07-02",
+      "kickoffUtc": "2026-07-02T00:00:00Z"
+    },
+    "537422": {
+      "footballData": "537422",
+      "worldcup26": "82",
+      "date": "2026-07-02",
+      "kickoffUtc": "2026-07-01T20:00:00Z"
+    },
+    "537423": {
+      "footballData": "537423",
+      "worldcup26": "76",
+      "date": "2026-06-30",
+      "kickoffUtc": "2026-06-29T17:00:00Z"
+    },
+    "537424": {
+      "footballData": "537424",
+      "worldcup26": "78",
+      "date": "2026-07-01",
+      "kickoffUtc": "2026-06-30T17:00:00Z"
+    },
+    "537425": {
+      "footballData": "537425",
+      "worldcup26": "79",
+      "date": "2026-07-01",
+      "kickoffUtc": "2026-07-01T02:00:00Z"
+    },
+    "537426": {
+      "footballData": "537426",
+      "worldcup26": "80",
+      "date": "2026-07-02",
+      "kickoffUtc": "2026-07-01T16:00:00Z"
+    },
+    "537428": {
+      "footballData": "537428",
+      "worldcup26": "88",
+      "date": "2026-07-04",
+      "kickoffUtc": "2026-07-03T18:00:00Z"
+    },
+    "537429": {
+      "footballData": "537429",
+      "worldcup26": "85",
+      "date": "2026-07-03",
+      "kickoffUtc": "2026-07-03T03:00:00Z"
+    },
+    "537430": {
+      "footballData": "537430",
+      "worldcup26": "87",
+      "date": "2026-07-04",
+      "kickoffUtc": "2026-07-04T01:30:00Z"
+    }
+  },
+  "updatedAt": "2026-07-19T14:03:35.634Z"
+}

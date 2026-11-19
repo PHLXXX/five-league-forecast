@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>分析服务启动失败</title>
+    <style>
+      :root { color-scheme: dark; font-family: "Microsoft YaHei UI", sans-serif; }
+      * { box-sizing: border-box; }
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; color: #eafffb; background: #061219; }
+      main { width: min(620px, calc(100vw - 48px)); padding: 40px; border: 1px solid rgba(255,109,125,.38); background: #091b23; box-shadow: 0 28px 80px rgba(0,0,0,.45); }
+      .eyebrow { color: #ff7d8b; font-size: 13px; font-weight: 700; }
+      h1 { margin: 10px 0 12px; font-size: 26px; }
+      p { color: #9bb1b8; line-height: 1.7; }
+      #message { padding: 14px 16px; border-left: 3px solid #ff6e7d; background: #0d252e; color: #d8e7ea; }
+      .actions { display: flex; gap: 10px; margin-top: 24px; flex-wrap: wrap; }
+      button { min-height: 42px; padding: 0 18px; border: 1px solid #24434c; color: #dffbf7; background: #102a33; cursor: pointer; }
+      button.primary { border-color: #27d6c0; color: #041617; background: #31dfc8; font-weight: 800; }
+      button:hover { filter: brightness(1.12); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="eyebrow">启动检查未通过</div>
+      <h1>分析服务暂时无法启动</h1>
+      <p id="message">请重新启动服务；如果仍然失败，请打开日志目录查看详细信息。</p>
+      <div class="actions">
+        <button class="primary" id="retry">重新启动服务</button>
+        <button id="logs">打开日志目录</button>
+        <button id="quit">退出软件</button>
+      </div>
+    </main>
+    <script>
+      const params = new URLSearchParams(location.search);
+      const message = params.get("message");
+      if (message) document.querySelector("#message").textContent = message;
+      document.querySelector("#retry").addEventListener("click", () => window.desktopApp.restartService());
+      document.querySelector("#logs").addEventListener("click", () => window.desktopApp.openLogs());
+      document.querySelector("#quit").addEventListener("click", () => window.desktopApp.quitApp());
+    </script>
+  </body>
+</html>
